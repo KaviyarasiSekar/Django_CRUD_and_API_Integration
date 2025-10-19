@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Post
+from blog_crud_operations.models import Post
 
 class PostSerializer(serializers.ModelSerializer):
     class Meta:

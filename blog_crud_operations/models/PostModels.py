@@ -9,9 +9,9 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
 
-
     class Meta:
         db_table = "blog_post"
+        managed = False
 
     def __str__(self):
         return self.title
