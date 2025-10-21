@@ -1,2 +1,2 @@
-from .PaymentModels import Payment
-from .PostModels import Post
+from .PaymentModels import *
+from .PostModels import *
